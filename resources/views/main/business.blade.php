@@ -1,7 +1,7 @@
 <div class="head">
   <p class="center text-head">รายชื่อธุระกิจ</p>
 </div>
-<div class="container">
+{{-- <div class="container">
   <div class="row row-cols-4 center-shop">
     <div class="col-6 col-sm-6 col-md-3 col-lg-3">
       <a href="{{ URL('topping/180Shopee')}}" class="text-decoration">
@@ -32,9 +32,8 @@
       </a>
     </div>
   </div>
-</div>
+</div> --}}
 
-{{-- 
 <table class="table table-bordered  width-height">
     <tbody>
       <tr class="img-shop box-shop center  ">
@@ -69,7 +68,7 @@
             </a>
         </td>
         <td class="col-3 col-sm-3 col-md-4 nameShop" >
-            <a href="{{ URL('topping/300 JDL')}}" class="text-decoration">
+            <a href="{{ URL('topping/300JD')}}" class="text-decoration">
               <img src="{{asset('/image/shop-25.png')}}" class="img-shop-tb-2" alt="...">
            <br>
             <span class="center-shop">300 JD</span>
@@ -100,7 +99,7 @@
         </td>
       </tr>
     </tbody>
-  </table> --}}
+  </table> 
   <br>
   <br>
   <br>  
